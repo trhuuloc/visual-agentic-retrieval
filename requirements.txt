@@ -1,0 +1,10 @@
+langgraph
+langchain
+openai
+transformers
+torch
+opencv-python
+Pillow
+fastapi
+uvicorn
+sentence-transformers

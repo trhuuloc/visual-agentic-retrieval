@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+.env
+.vscode/
+*.log
+ckpts/
+.history/
+*.pt
+*.pth
+.DS_Store
+*.jpg
+*.png
+*.jpeg
+data/flickr30k/Images/
+data/flickr30k/dataset_flickr30k.json
