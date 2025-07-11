@@ -43,7 +43,10 @@ def build_data(args, transform=None):
     train_loader = DataLoader(train_set, batch_size=args.batch_size, shuffle=True, num_workers=4)
     val_loader = DataLoader(val_set, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
+    val_image_paths = [img_path for img_path, _ in val_set.samples]
+    
     return {
         'train_loader': train_loader,
-        'val_loader': val_loader
+        'val_loader': val_loader,
+        'val_image_paths': val_image_paths,
     }

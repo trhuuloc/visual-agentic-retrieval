@@ -53,12 +53,26 @@ def parse_args(args):
         help='Dataset annotation'
     )
     
-    # Other
+    # Saving
     parser.add_argument(
         '--ckpt_dir',
         type=str,
         default='ckpts/',
         help='Save checkpoints'
+    )
+    parser.add_argument(
+        '--faiss_dir',
+        type=str,
+        default='./data/faiss_index',
+        help='Save FAISS index'
+    )
+    
+    # Searching
+    parser.add_argument(
+        '--top_k',
+        type=int,
+        default=5,
+        help='Number of retrieve index'
     )
     args = parser.parse_args(args)
     

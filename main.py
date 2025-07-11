@@ -1,6 +1,6 @@
 from supervisor.create_supervisor import build_graph
-
-def main():
+from retrieve.
+def retrieve():
     image_path = "data/sample.jpg"
     question = "Có bao nhiêu người trong ảnh?"
 

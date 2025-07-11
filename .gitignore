@@ -12,5 +12,6 @@ ckpts/
 *.jpg
 *.png
 *.jpeg
+*.index
 data/flickr30k/Images/
 data/flickr30k/dataset_flickr30k.json
